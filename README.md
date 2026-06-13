@@ -105,3 +105,6 @@ hidra/
 - **Messenger shows "Reading relays…" for a few seconds** — it queries live Nostr relays
   on first load; that's expected.
 - **Port already in use** — start on another port: `HIDRA_PORT=8001 ./darnahi`.
+
+## NOTE
+Built with AI
