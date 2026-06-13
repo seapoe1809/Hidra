@@ -76,7 +76,9 @@ HIDRA_DB_PASSWORD=<long-random-string>
 HIDRA_PORT=8000
 ```
 
+## Project layout
 
+```
 hidra/
 ├── backend/            FastAPI app
 │   ├── main.py         entry point (routers, middleware)
@@ -91,6 +93,9 @@ hidra/
 ├── Dockerfile          app image (Option A)
 ├── docker-compose.yml  app + PostgreSQL stack (Option B)
 ├── .env.example        documented configuration
+└── ignore/             excluded legacy/scratch files (git-ignored)
+```
+
 
 
 ## Troubleshooting
