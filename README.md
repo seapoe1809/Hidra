@@ -43,7 +43,7 @@ Needs **Python 3.10+**, **git**, and **Docker** (for the database only — or po
 `HIDRA_DATABASE_URL` at your own Postgres).
 
 ```bash
-git clone https://github.com/seapoe1809/Hidra
+git clone https://github.com/seapoe1809/Hidra hidra
 cd hidra
 python3 setup.py     # creates the venv, installs deps, generates secrets, starts the DB
 ./darnahi            # starts the app at http://localhost:8000
@@ -56,7 +56,7 @@ python3 setup.py     # creates the venv, installs deps, generates secrets, start
 Needs only **Docker**. Builds the app and starts PostgreSQL together:
 
 ```bash
-git clone https://github.com/seapoe1809/Hidra
+git clone https://github.com/seapoe1809/Hidra hidra
 cd hidra
 docker compose up -d --build
 ```
