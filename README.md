@@ -4,6 +4,9 @@
 
 # Darnahi · Project Hidra v1.0
 
+Hidra is an option to allow health providers to set up direct risk pool to allow patients to sign up for a base plan. Paying a token amount gives you access best rate for health services.ndin
+The project Hidra offers Plan 1.1 (cost of good+10% margin best rate) for Individual.
+
 Encrypted enrollment, identity, and Bitcoin payments for hospitals and individuals.
 This allows providers, pharmacies, labs to connect directly with patients. For outside US only.
 
